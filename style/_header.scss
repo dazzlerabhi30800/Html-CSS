@@ -1,0 +1,24 @@
+// @mixin flexCenter($direction,$background){
+//     display : flex;
+//     justify-content: center;
+//     align-items : center;
+//     height : 20vh;
+//     flex-direction : $direction;
+//     background : $background;
+// }
+
+header{
+
+    // @include flexCenter(column,red);
+    background : rgb(29, 29, 182);
+    
+    height : 100vh;
+   
+    color : $textColor;
+    button {
+        background : $primaryBtn;
+        &::after{
+            content : "Hellooo";
+        }
+    }
+}
