@@ -1,0 +1,237 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+}
+
+h1{
+    color : #53d9ee;
+    font-weight : 600;
+    font-size : 3rem;
+    opacity : 0.8;
+}
+h2,p{
+    color : #7c88fc;
+    font-weight : 500rem;
+    opacity : 0.8;
+}
+
+h3{
+    color : #65dfc9;
+    font-weight : 600rem;
+    opacity : 0.8;
+}
+
+main {
+    font-family: 'Bai Jamjuree', sans-serif;
+    min-height : 100vh;
+    background : linear-gradient(to right top,#65dfc9,#6cdbeb);
+    display :flex;
+    align-items : center;
+    justify-content : center;
+}
+
+.glass {
+    background : white;
+    min-height : 80vh;
+    width : 50%;
+    background : linear-gradient(to right bottom,rgba(255, 255, 255,0.7),rgba(199, 199, 201, 0.3));
+    border-radius : 2rem;
+    z-index : 2;
+    backdrop-filter : blur(2rem);
+    display : flex;
+}
+
+.circle1,
+.circle2{
+    background : white;
+    background : linear-gradient(to right bottom,rgb(255, 255, 255,0.8),rgba(199, 199, 201, 0.3));
+    height : 20rem;
+    width : 20rem;
+    position : absolute;
+    border-radius : 50%;
+    
+
+}
+
+.circle1{
+    top : 5%;
+    right : 15%;
+    /* background : red; */
+
+}
+.circle2{
+    bottom : 5%;
+    left : 10%;
+
+}
+
+.dashboard {
+    flex : 1;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : space-evenly;
+    text-align : center;
+    background : linear-gradient(to right bottom,rgba(255, 255, 255,0.7),rgba(199, 199, 201, 0.3));
+    border-radius : 2rem;
+    /* min-height: 50vh; */
+    width : 34%;
+}
+.games {
+    flex : 2;
+}
+
+.link{
+    align-items : center;
+    justify-content: center;
+    display : flex;
+    margin : 2rem 0rem;
+    padding : 2rem 4rem;
+    transform : translate(-5%,20%);
+}
+.link h2{
+    padding : 0rem 2rem;
+}
+
+.link img{
+    /* position : relative; */
+   
+    display : flex;
+    object-fit: cover;
+    width : 15%;
+}
+.pro {
+    background : linear-gradient(to right top,#6cdb#65dfc9,eb);
+    border-radius : 2rem;
+    color : white;
+    padding : 1rem;
+    /* display: flex; */
+    position : relative;
+}
+.pro img{
+    position : absolute;
+    /* position : relative; */
+    display : flex;
+    flex-direction: column;
+    /* object-fit: cover; */
+    align-items : center;
+    justify-content : center;
+    width : 50%;
+    transform: translate(81%,-96%);
+    /* left : 34%; */
+}
+.pro h2 {
+    width : 30%;
+    display : flex;
+    flex-direction: column;
+    align-items : center;
+    justify-content : center;
+    text-align: center;
+    color : white;
+}
+
+.user img{
+    border-radius :50%;
+}
+
+
+/* GAMES SECTION  */
+.status {
+    margin : 3rem;
+}
+
+.status input {
+    background : linear-gradient(to right bottom,rgba(255, 255, 255,0.7),rgba(199, 199, 201, 0.3));
+    border : none;
+    width : 50%;
+    padding : 0.5rem;
+    border-radius : 2rem;
+}
+
+.games {
+    margin : 5rem;
+    display : flex;
+    flex-direction : column;
+    justify-content : space-evenly;
+}
+
+.card {
+    display : flex;
+    background : linear-gradient(to left top,rgba(255,255,255,0.6),rgba(255, 255, 255, 0.233));
+    border-radius : 1rem;
+    margin : 2rem 0rem;
+    padding : 2rem;
+    box-shadow : 6px 6px 20px rgba(122,122,122,0.2);
+    justify-content : space-between;
+
+}
+
+.card img {
+    width : 34%;
+    border-radius: 20%;
+    margin : 3rem;
+}
+
+.card-info {
+    /* display : flex; */
+}
+
+    
+
+.card-info h2 {
+    
+    transform : translate(34%,54%);
+}
+.card-info p {
+   
+    transform : translate(-2%,44%);
+}
+
+
+
+.progress1{
+    background: linear-gradient(to right top, rgb(101, 223, 201), rgb(108, 219, 235));
+    width: 283%;
+    height: 19%;
+    border-radius: 1rem;
+    transform: translate(-48%, 139%);
+    overflow: hidden;
+}
+.progress2{
+    background : linear-gradient(to right top,#65dfc9,#6cdbeb);
+    width : 120%;
+    height  :20%;
+    border-radius : 1rem;
+    transform : translate(-5%,34%);
+    /* position : relative; */
+    overflow: hidden;
+}
+.progress3{
+    background : linear-gradient(to right top,#65dfc9,#6cdbeb);
+    width : 207%;
+    height  :20%;
+    border-radius : 1rem;
+    transform: translate(-28%,102%);
+    /* position : relative; */
+    overflow: hidden;
+}
+
+.percentage1{
+        font-weight : bold;
+        background : linear-gradient(to right top,rgb(118, 120, 238),#ef77ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color : transparent; 
+}
+.percentage2{
+        font-weight : bold;
+        background : linear-gradient(to right top,rgb(118, 120, 238),#a074f0);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color : transparent; 
+}
+.percentage3{
+        font-weight : bold;
+        background : linear-gradient(to right top,rgb(118, 120, 238),#fc4cd6);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color : transparent; 
+}
